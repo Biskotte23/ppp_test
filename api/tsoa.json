@@ -1,0 +1,17 @@
+{
+  "entryFile": "./src/server.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["./src/controllers/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "./src/generated",
+    "specVersion": 3,
+    "basePath": "/api/v1",
+    "info": {
+      "title": "Polybay API"
+    }
+  },
+  "routes": {
+    "routesDir": "./src/generated",
+    "basePath": "/api/v1"
+  }
+}

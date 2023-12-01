@@ -1,0 +1,14 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:15.4
+    container_name: ppp_test
+    env_file:
+      - .env
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - postgres_data:/database/postgres/data
+
+volumes:
+  postgres_data:

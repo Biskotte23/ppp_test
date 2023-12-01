@@ -1,0 +1,8 @@
+{
+  "name": "polybay",
+  "version": "1.0.0",
+  "workspaces": [
+    "api",
+    "front"
+  ]
+}
